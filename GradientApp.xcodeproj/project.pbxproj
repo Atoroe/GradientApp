@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E31E70B3262315B900F598B8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E70B2262315B900F598B8 /* SettingViewController.swift */; };
+		E31E70B7262315E800F598B8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E70B6262315E800F598B8 /* MainViewController.swift */; };
 		E31FD76426110D760015A8FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31FD76326110D760015A8FE /* AppDelegate.swift */; };
 		E31FD76626110D760015A8FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31FD76526110D760015A8FE /* SceneDelegate.swift */; };
-		E31FD76826110D760015A8FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31FD76726110D760015A8FE /* ViewController.swift */; };
 		E31FD76B26110D760015A8FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31FD76926110D760015A8FE /* Main.storyboard */; };
 		E31FD76D26110D7D0015A8FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31FD76C26110D7D0015A8FE /* Assets.xcassets */; };
 		E31FD77026110D7D0015A8FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31FD76E26110D7D0015A8FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E31E70B2262315B900F598B8 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E31E70B6262315E800F598B8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E31FD76026110D760015A8FE /* GradientApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31FD76326110D760015A8FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E31FD76526110D760015A8FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E31FD76726110D760015A8FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E31FD76A26110D760015A8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E31FD76C26110D7D0015A8FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31FD76F26110D7D0015A8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E31E70B92623192500F598B8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E31FD76926110D760015A8FE /* Main.storyboard */,
+				E31FD76E26110D7D0015A8FE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E31E70BA2623193F00F598B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E31E70B6262315E800F598B8 /* MainViewController.swift */,
+				E31E70B2262315B900F598B8 /* SettingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E31E70BB262319C600F598B8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				E31FD76326110D760015A8FE /* AppDelegate.swift */,
+				E31FD76526110D760015A8FE /* SceneDelegate.swift */,
+				E31FD77126110D7D0015A8FE /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		E31E70BD262319D700F598B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E31FD76C26110D7D0015A8FE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E31FD75726110D760015A8FE = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +94,10 @@
 		E31FD76226110D760015A8FE /* GradientApp */ = {
 			isa = PBXGroup;
 			children = (
-				E31FD76326110D760015A8FE /* AppDelegate.swift */,
-				E31FD76526110D760015A8FE /* SceneDelegate.swift */,
-				E31FD76726110D760015A8FE /* ViewController.swift */,
-				E31FD76926110D760015A8FE /* Main.storyboard */,
-				E31FD76C26110D7D0015A8FE /* Assets.xcassets */,
-				E31FD76E26110D7D0015A8FE /* LaunchScreen.storyboard */,
-				E31FD77126110D7D0015A8FE /* Info.plist */,
+				E31E70B92623192500F598B8 /* Storyboards */,
+				E31E70BA2623193F00F598B8 /* ViewControllers */,
+				E31E70BB262319C600F598B8 /* Supporting */,
+				E31E70BD262319D700F598B8 /* Resources */,
 			);
 			path = GradientApp;
 			sourceTree = "<group>";
@@ -137,9 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E31FD76826110D760015A8FE /* ViewController.swift in Sources */,
+				E31E70B3262315B900F598B8 /* SettingViewController.swift in Sources */,
 				E31FD76426110D760015A8FE /* AppDelegate.swift in Sources */,
 				E31FD76626110D760015A8FE /* SceneDelegate.swift in Sources */,
+				E31E70B7262315E800F598B8 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2SK72H5U39;
-				INFOPLIST_FILE = GradientApp/Info.plist;
+				INFOPLIST_FILE = GradientApp/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2SK72H5U39;
-				INFOPLIST_FILE = GradientApp/Info.plist;
+				INFOPLIST_FILE = GradientApp/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
